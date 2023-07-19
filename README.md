@@ -77,7 +77,7 @@ Additional attestations may be added to individual APIs as scenarios arise.
 
 ### Validation and transparency framework
 
-Developers who submit the enrollment form will be sent a file that contains the attestations for the APIs they are requesting to use. To complete enrollment, the developer must place the file in a site's public `.well-known` location. For example, if they enroll with `example.com`, they need to place the attestation file at `https://example.com/.well-known/privacy-sandbox-attestations`. 
+Developers who submit the enrollment form will be sent a file that contains the attestations for the APIs they are requesting to use. To complete enrollment, the developer must place the file in a site's public `.well-known` location. For example, if they enroll with `example.com`, they need to place the attestation file at `https://example.com/.well-known/privacy-sandbox-attestations.json`. 
 
 The attestation file serves two purposes: 
 *   Make attestations public and easily accessible directly through the enrolled party, a source not owned by Google
