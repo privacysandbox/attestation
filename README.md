@@ -115,7 +115,7 @@ File fields:
   </tr>
   <tr>
    <td><code>platform_attestations</code></td>
-   <td>List of per-API attestations for each platform. This contains one field for each API that is subject to attestation requirements. The list of APIs may differ by platform based on API availability on the given platform. There is a core attestation <code>ServiceNotUsedForReidentification</code> which applies to all known APIs. There may be new attestations added in the future that are applicable to one or more APIs. For each API, access is granted only if all the required attestations for it are declared in this file. </td>
+   <td>List of per-API attestations for each platform. This contains one field for each API that is subject to attestation requirements. The list of APIs may differ by platform based on API availability on the given platform. There is a core attestation <code>ServiceNotUsedForIdentifyingUserAcrossSites</code> which applies to all known APIs. There may be new attestations added in the future that are applicable to one or more APIs. For each API, access is granted only if all the required attestations for it are declared in this file. </td>
   </tr>
   <tr>
    <td><code>attribution_reporting_api</code></td>
