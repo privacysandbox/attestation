@@ -6,7 +6,7 @@ To access the Privacy Sandbox relevance and measurement APIs on [Chrome](https:/
 
 [Developer enrollment](https://developer.chrome.com/blog/announce-enrollment-privacy-sandbox/) provides a mechanism to verify the entities that call these APIs, and to gather the developer-specific data needed to properly configure and use the Privacy Sandbox APIs. This enrollment process adds an additional layer of protections on top of the structural restrictions enforced within each API, by adding transparency to who is collecting data, and mitigating attempts to misuse the APIs to gather more data than intended. To provide auditable transparency, enrollment information about the company will be made public.
 
-To ensure companies have ample time to complete the enrollment and attestation process, we now expect to **begin enforcement in mid-October, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule)**. For the pre-Stable Chrome channels, enforcement will also begin with their respective 118 releases: late-August for Dev/Canary, mid-September for Beta. \
+To ensure companies have ample time to complete the enrollment and attestation process, we now expect to **begin enforcement in mid-October, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule)**. For the pre-Stable Chrome channels, enforcement will also begin with their respective 118 releases: late-August for Dev/Canary, mid-September for Beta.
 
 This means **companies must complete enrollment and attestation by mid-October** in order to access the relevance and measurement APIs in Chrome Stable, and **by August in order to access the APIs in the pre-release Dev and Canary Chrome channels**.
 
