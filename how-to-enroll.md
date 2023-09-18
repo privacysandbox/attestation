@@ -91,8 +91,8 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 #### 5. Do I need to enroll to test against local development environments?
   -  No, you do not need to enroll if you are only testing with local traffic.
   -  For local testing, we are providing developer overrides from Chrome 116 with a Chrome flag and CLI switch:
-    -  Flag: `chrome://flags/#privacy-sandbox-enrollment-overrides`
-    -  CLI: `--privacy-sandbox-enrollment-overrides=https://example.com,https://example.co.uk,...`
+     -  Flag: `chrome://flags/#privacy-sandbox-enrollment-overrides`
+     -  CLI: `--privacy-sandbox-enrollment-overrides=https://example.com,https://example.co.uk,...`
 #### 6. Do I need to re-enroll if I previously enrolled under the Android Enrollment Program?
   -  Yes, the new enrollment process will need to be completed. You will receive an email with instructions on how to migrate your enrollment to the new process.
 #### 7. Do I need to enroll my staging, beta, QA, or test environments?
