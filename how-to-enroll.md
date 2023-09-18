@@ -1,6 +1,6 @@
 # Enroll for the Privacy Sandbox
 
-To access the Privacy Sandbox relevance and measurement APIs on [Chrome](https://developer.chrome.com/docs/privacy-sandbox/) and [Android](https://developer.android.com/design-for-safety/privacy-sandbox), developers need to enroll with the Privacy Sandbox. This includes Attribution Reporting, Protected Audience, Topics, Private Aggregation, and Shared Storage.
+To access the Privacy Sandbox relevance and measurement APIs on **Chrome** (https://developer.chrome.com/docs/privacy-sandbox/) and **Android** (https://developer.android.com/design-for-safety/privacy-sandbox), developers need to enroll with the Privacy Sandbox. This includes Attribution Reporting, Protected Audience, Topics, Private Aggregation, and Shared Storage.
 
 ## What is enrollment?
 
@@ -91,8 +91,8 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 #### 5. Do I need to enroll to test against local development environments?
   -  No, you do not need to enroll if you are only testing with local traffic.
   -  For local testing, we are providing developer overrides from Chrome 116 with a Chrome flag and CLI switch:
-  -  Flag: `chrome://flags/#privacy-sandbox-enrollment-overrides`
-  -  CLI: `--privacy-sandbox-enrollment-overrides=https://example.com,https://example.co.uk,...`
+    -  Flag: `chrome://flags/#privacy-sandbox-enrollment-overrides`
+    -  CLI: `--privacy-sandbox-enrollment-overrides=https://example.com,https://example.co.uk,...`
 #### 6. Do I need to re-enroll if I previously enrolled under the Android Enrollment Program?
   -  Yes, the new enrollment process will need to be completed. You will receive an email with instructions on how to migrate your enrollment to the new process.
 #### 7. Do I need to enroll my staging, beta, QA, or test environments?
@@ -150,17 +150,17 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 ### Relevance FAQs 
 
 #### 1. Can one Buyer A with a separate enrollment from another Buyer B create an IG and allow Buyer B to use it in bidding? 
-  -  [Chrome]No. However, a Buyer A can delegate creation of an IG to another Site B that has no role as Buyer (details[ here](https://github.com/WICG/turtledove/blob/main/FLEDGE.md#13-permission-delegation)) with the IG retaining Buyer A as the owner.This is the only way we support an IG being created by an entity other than the (eventual) Buyer that submits a bid in the PA auction 
-  -  [Android] No. However Android also supports [Delegation](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#custom-audience-join:~:text=audience.%0AjoinCustomAudience(audience)%3B-,fetchAndJoinCustomAudience,-()) - where an on device caller can request the platform to fetch a Custom Audience from a specific buyer (Buyer B). The Buyer B must be an enrolled ad tech.   
+  -  **Chrome** No. However, a Buyer A can delegate creation of an IG to another Site B that has no role as Buyer (details[ here](https://github.com/WICG/turtledove/blob/main/FLEDGE.md#13-permission-delegation)) with the IG retaining Buyer A as the owner.This is the only way we support an IG being created by an entity other than the (eventual) Buyer that submits a bid in the PA auction 
+  -  **Android** No. However Android also supports [Delegation](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#custom-audience-join:~:text=audience.%0AjoinCustomAudience(audience)%3B-,fetchAndJoinCustomAudience,-()) - where an on device caller can request the platform to fetch a Custom Audience from a specific buyer (Buyer B). The Buyer B must be an enrolled ad tech.   
 #### 2. How can the parties sending reports via ReportResult or ReportWin check the enrollment status? 
-  -  [Chrome] The Chrome implementation is not currently checking for enrollment status of the ReportResult/ReportWin destinations. 
-  -  [Android] There is no need for these parties to do anything. The PA flow will check for the enrollment for either of the specified destinations.
+  -  **Chrome** The Chrome implementation is not currently checking for enrollment status of the ReportResult/ReportWin destinations. 
+  -  **Android** There is no need for these parties to do anything. The PA flow will check for the enrollment for either of the specified destinations.
 #### 3. Do the destinations for event-level engagement reporting, including 3rd party ad measurement partners need to be enrolled?
-  -  [Chrome] Yes. Any entities receiving data directly from the privacy sandbox APIs via [engagement reporting](https://github.com/WICG/turtledove/blob/main/Fenced_Frames_Ads_Reporting.md) need to enroll.
-  -  [Android] Same as above see [Event Reporting](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#reporting_events)
+  -  **Chrome** Yes. Any entities receiving data directly from the privacy sandbox APIs via [engagement reporting](https://github.com/WICG/turtledove/blob/main/Fenced_Frames_Ads_Reporting.md) need to enroll.
+  -  **Android** Same as above see [Event Reporting](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#reporting_events)
 #### 4. The limit of 1000 IGs per Owner per device, does that apply to a single enrollment?
-  -  [Chrome] Not necessarily. The limit of 1000 IGs is at the origin level. If ad tech decides to use several origins per site/enrollment, then each of those origins gets  its own allocation of 1000 IGs per device
-  -  [Android] The Custom Audience limits are applied per User profile (4000) and per app (1000) which is applied to a single enrollment. 
+  -  **Chrome** Not necessarily. The limit of 1000 IGs is at the origin level. If ad tech decides to use several origins per site/enrollment, then each of those origins gets  its own allocation of 1000 IGs per device
+  -  **Android** The Custom Audience limits are applied per User profile (4000) and per app (1000) which is applied to a single enrollment. 
 #### 5. What, if any, are the rate limits I need to keep in mind when using the Topics API?
   -  The max number of API usage context domains allowed to be stored per page load: 30. This means that on a page, all domains can invoke the API to "get" topics. But only the first 30 domains are allowed to "set" topics.
   -  For Topics on Android, rate limited at 1 call per app per second (open to feedback). 
