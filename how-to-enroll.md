@@ -24,7 +24,7 @@ To enroll, developers must [complete the enrollment form](https://goo.gle/privac
 
 Developers also need to agree to attestations about their usage of the enrolled Privacy Sandbox APIs.
 
-After your enrollment form has been submitted, we'll review and process your application. Once the review is complete, you will be sent a confirmation email with a unique developer enrollment account ID and attestation file.  The file must be must made publicly available from the /`.well-known` path on the [site](https://web.dev/same-site-same-origin/) for which it was enrolled. [Android developers](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md#android-developer-data) can provide the enrollment ID to app developers so apps can set granular access control: see Android's [Configure API-specific Ad Services](https://developer.android.com/design-for-safety/privacy-sandbox/setup-api-access?version=preview#configure-api-specific) documentation.
+After your enrollment form has been submitted, we'll review and process your application. Once the review is complete, you will be sent a confirmation email with a unique developer enrollment account ID and attestation file.  The file must be made publicly available from the /`.well-known` path on the [site](https://web.dev/same-site-same-origin/) for which it was enrolled. [Android developers](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md#android-developer-data) can provide the enrollment ID to app developers so apps can set granular access control: see Android's [Configure API-specific Ad Services](https://developer.android.com/design-for-safety/privacy-sandbox/setup-api-access?version=preview#configure-api-specific) documentation.
 
 ### Before you begin
 
