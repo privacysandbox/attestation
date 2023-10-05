@@ -80,7 +80,7 @@ Let's take a look at the parts that make up the proposed core privacy attestatio
   <tr>
    <td><code>IdentifyingUserAcrossSites</code>
    </td>
-   <td>The act of utilizing the API’s data for the purpose of learning the identity of an individual user or device across different sites or apps
+   <td>The act of utilizing the API's data for the purpose of learning the identity of an individual user or device across different sites or apps
    </td>
   </tr>
 </table>
@@ -101,8 +101,8 @@ Developers who submit an enrollment form are then sent a file that contains the 
 
 The attestation file serves these purposes:
 
-* Make attestations public and easily accessible directly through the enrolled party, a source not owned by Google
-* Validate domain ownership with the help of an included ownership token
+* Make attestations public and easily accessible directly through the enrolled party, a source not owned by Google.
+* Validate domain ownership with the help of an included ownership token.
 
 File fields:
 
@@ -191,8 +191,6 @@ The attestation file is verified for consistency regularly to ensure the languag
 
 We strive to bring enhanced transparency to the use of the Privacy Sandbox relevance and measurement APIs. Therefore, besides placing the file on a server, we will generate reports that share enrollment and attestation related information for each enrolled developer. These reports will be designed to help a wide variety of interested parties gain more understanding and context around who is using these APIs. 
 
-
-<!-- Footnotes themselves at the bottom. -->
 ## Notes
 
 [^1]:
