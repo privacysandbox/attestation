@@ -40,14 +40,23 @@ In addition to the computer readable version of the attestations, a natural lang
 
 The English version of the core privacy attestation is:
 
-```
 Previous:
-This entity that is using the Privacy Sandbox states that it will not use the data from the Privacy Sandbox APIs or services for the purpose of linking your identity across different sites or apps.
+```
+This entity that is using the Privacy Sandbox states that
+it will not use the data from the Privacy Sandbox APIs or
+services for the purpose of linking your identity across
+different sites or apps.
 ```
 
 New:
-
-In the attestation file, a language marker must be provided for any translations of the natural language version so that a user agent or app can select the appropriate language version to display to the user if desired. Machine based translations can provide translations for other languages that are not included in the attestation file.
+```
+In the attestation file, a language marker must be provided
+for any translations of the natural language version so that
+a user agent or app can select the appropriate language
+version to display to the user if desired. Machine based
+translations can provide translations for other languages
+that are not included in the attestation file.
+```
 
 Let's take a look at the parts that make up the proposed core privacy attestation:
 
