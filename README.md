@@ -59,19 +59,19 @@ Let's take a look at the parts that make up the proposed core privacy attestatio
 
 <table>
   <tr>
-   <td><code>Service</code>
+   <td><strong>Service</strong>
    </td>
    <td>A Service includes both the client side APIs in the Privacy Sandbox and any related servers that altogether represent the API.
    </td>
   </tr>
   <tr>
-   <td><code>NotUsed</code>
+   <td><strong>NotUsed</strong>
    </td>
    <td>The data provided by the Privacy Sandbox API is not used for the purpose stated in the attestation.
    </td>
   </tr>
   <tr>
-   <td><code>IdentifyingUserAcrossSites</code>
+   <td><strong>IdentifyingUserAcrossSites</strong>
    </td>
    <td>The act of utilizing the API's data for the purpose of learning the identity of an individual user or device across different sites or apps
    </td>
