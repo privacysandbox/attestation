@@ -151,25 +151,25 @@ File fields:
   <tr>
    <td><code>topics_api</code>
    </td>
-   <td>Attestations for the Topics API. This entry is a list, which contains a list of `&lt;Attestation, Boolean>` items that indicate the attestation strings the ad tech attests to. 
+   <td>Attestations for the Topics API. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code>code> items that indicate the attestation strings the ad tech attests to. 
    </td>
   </tr>
   <tr>
    <td><code>protected_audience_api</code>
    </td>
-   <td>Attestations for the Protected Audience APIs. This entry is a list, which contains a list of `&lt;Attestation, Boolean>` items that indicate the attestation strings the ad tech attests to. . 
+   <td>Attestations for the Protected Audience APIs. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items that indicate the attestation strings the ad tech attests to. . 
    </td>
   </tr>
   <tr>
    <td><code>shared_storage_api</code>
    </td>
-   <td>Attestations for the Shared Storage API. This entry is a list, which contains a list of `&lt;Attestation, Boolean>` items, that indicate the attestation strings the ad tech attests to.  
+   <td>Attestations for the Shared Storage API. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items, that indicate the attestation strings the ad tech attests to.  
    </td>
   </tr>
   <tr>
    <td><code>private_aggregation_api</code>
    </td>
-   <td>Attestations for the Private Aggregation API. This entry is a list, which contains a list of `&lt;Attestation, Boolean>` items, that indicate the attestation strings the ad tech attests to. 
+   <td>Attestations for the Private Aggregation API. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items, that indicate the attestation strings the ad tech attests to. 
    </td>
   </tr>
 </table>
