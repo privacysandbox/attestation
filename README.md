@@ -63,7 +63,7 @@ Let's take a look at the parts that make up the proposed core privacy attestatio
   <tr>
    <td><code>Service</code>
    </td>
-   <td>A Service includes both the client side APIs in the Privacy Sandbox and any related servers that altogether represent the API.
+   <td>A Service includes both the client side APIs in the Privacy Sandbox and any related servers that all together represent the API.
    </td>
   </tr>
   <tr>
