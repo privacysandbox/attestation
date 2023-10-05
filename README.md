@@ -6,6 +6,9 @@ In [A Potential Privacy Model for the Web: Sharding Web Identity](https://github
 
 In addition to these technical privacy guardrails, we [announced our plans](https://developer.chrome.com/blog/announce-enrollment-privacy-sandbox/) to launch a new developer enrollment process which will verify companies before they can use the APIs, as an additional layer of protection for user privacy. As part of this process, we propose an attestation model, which requires developers to agree to restrictions around the usage of these services to prevent re-identification of users across sites. 
 
+[^1]:
+     Even though the Potential Privacy Model for the Web document was written with the web in mind, it still describes the core privacy threat that the Privacy Sandbox as a whole is designed to protect, and we apply the principle to both web and Android.
+
 ## Goals
 
 The goals for designing the attestation model include:
@@ -59,19 +62,19 @@ Let's take a look at the parts that make up the proposed core privacy attestatio
 
 <table>
   <tr>
-   <td><strong>Service</strong>
+   <td><code>Service</code>
    </td>
    <td>A Service includes both the client side APIs in the Privacy Sandbox and any related servers that altogether represent the API.
    </td>
   </tr>
   <tr>
-   <td><strong>NotUsed</strong>
+   <td><code>NotUsed</code>
    </td>
    <td>The data provided by the Privacy Sandbox API is not used for the purpose stated in the attestation.
    </td>
   </tr>
   <tr>
-   <td><strong>IdentifyingUserAcrossSites</strong>
+   <td><code>IdentifyingUserAcrossSites</code>
    </td>
    <td>The act of utilizing the API's data for the purpose of learning the identity of an individual user or device across different sites or apps.
    </td>
@@ -183,8 +186,3 @@ File fields:
 The attestation file is verified for consistency regularly to ensure the language included within the file remains unchanged and on the ad tech's server in the correct location. It's important to ensure that developers do not maintain multiple versions of the attestation file. In the future, it may be helpful for browsers or devices to routinely observe attestation files so that differences from expectation attestations could be highlighted to the ecosystem. 
 
 We strive to bring enhanced transparency to the use of the Privacy Sandbox relevance and measurement APIs. Therefore, besides placing the file on a server, we will generate reports that share enrollment and attestation related information for each enrolled developer. These reports will be designed to help a wide variety of interested parties gain more understanding and context around who is using these APIs. 
-
-## Notes
-
-[^1]:
-     Even though the Potential Privacy Model for the Web document was written with the web in mind, it still describes the core privacy threat that the Privacy Sandbox as a whole is designed to protect, and we apply the principle to both web and Android.
