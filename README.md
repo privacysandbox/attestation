@@ -50,7 +50,10 @@ different sites or apps.
 
 New:
 ```
-The attesting entity states that it will not use the Privacy Sandbox APIs or services for the purpose of learning that you are the same user across different sites or apps, and that it will not otherwise circumvent the privacy protections of the Privacy Sandbox.
+The attesting entity states that it will not use the Privacy Sandbox
+APIs or services for the purpose of learning that you are the same
+user across different sites or apps, and that it will not otherwise
+circumvent the privacy protections of the Privacy Sandbox.
 ```
 
 In the attestation file, a language marker must be provided
