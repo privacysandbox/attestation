@@ -163,7 +163,7 @@ File fields:
   <tr>
    <td><code>protected_audience_api</code>
    </td>
-   <td>Attestations for the Protected Audience APIs. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items that indicate the attestation strings the ad tech attests to. . 
+   <td>Attestations for the Protected Audience APIs. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items that indicate the attestation strings the ad tech attests to.
    </td>
   </tr>
   <tr>
