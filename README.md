@@ -1,4 +1,4 @@
-# The Privacy Sandbox enrollment attestation model
+# The Privacy Sandbox enrollment attestation
 
 ## Introduction
 
