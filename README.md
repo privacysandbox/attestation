@@ -159,7 +159,7 @@ File fields:
   <tr>
    <td><code>topics_api</code>
    </td>
-   <td>Attestations for the Topics API. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code>code> items that indicate the attestation strings the ad tech attests to. 
+   <td>Attestations for the Topics API. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items that indicate the attestation strings the ad tech attests to. 
    </td>
   </tr>
   <tr>
