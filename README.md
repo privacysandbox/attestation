@@ -145,7 +145,7 @@ File fields:
   <tr>
    <td><code>attribution_reporting_api</code>
    </td>
-   <td>Attestations for the Attribution Reporting APIs. This entry is a list, which contains a list of `<code>&lt;Attestation, Boolean>`</code> items that indicate the attestation strings the ad tech attests to. 
+   <td>Attestations for the Attribution Reporting APIs. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items that indicate the attestation strings the ad tech attests to. 
    </td>
   </tr>
   <tr>
