@@ -73,7 +73,7 @@ Let's take a look at the parts that make up the proposed core privacy attestatio
   <tr>
    <td><strong>IdentifyingUserAcrossSites</strong>
    </td>
-   <td>The act of utilizing the API's data for the purpose of learning the identity of an individual user or device across different sites or apps
+   <td>The act of utilizing the API's data for the purpose of learning the identity of an individual user or device across different sites or apps.
    </td>
   </tr>
 </table>
