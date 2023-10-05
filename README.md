@@ -42,10 +42,9 @@ The English version of the core privacy attestation is:
 
 Previous:
 ```
-This entity that is using the Privacy Sandbox states that
-it will not use the data from the Privacy Sandbox APIs or
-services for the purpose of linking your identity across
-different sites or apps.
+This entity that is using the Privacy Sandbox states that it will not
+use the data from the Privacy Sandbox APIs or services for the purpose
+of linking your identity across different sites or apps.
 ```
 
 New:
