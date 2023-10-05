@@ -6,8 +6,7 @@ In [A Potential Privacy Model for the Web: Sharding Web Identity](https://github
 
 In addition to these technical privacy guardrails, we [announced our plans](https://developer.chrome.com/blog/announce-enrollment-privacy-sandbox/) to launch a new developer enrollment process which will verify companies before they can use the APIs, as an additional layer of protection for user privacy. As part of this process, we propose an attestation model, which requires developers to agree to restrictions around the usage of these services to prevent re-identification of users across sites. 
 
-[^1]:
-     Even though the Potential Privacy Model for the Web document was written with the web in mind, it still describes the core privacy threat that the Privacy Sandbox as a whole is designed to protect, and we apply the principle to both web and Android.
+[^1]: Even though the Potential Privacy Model for the Web document was written with the web in mind, it still describes the core privacy threat that the Privacy Sandbox as a whole is designed to protect, and we apply the principle to both web and Android.
 
 ## Goals
 
