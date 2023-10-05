@@ -55,12 +55,7 @@ user across different sites or apps, and that it will not otherwise
 circumvent the privacy protections of the Privacy Sandbox.
 ```
 
-In the attestation file, a language marker must be provided
-for any translations of the natural language version so that
-a user agent or app can select the appropriate language
-version to display to the user if desired. Machine based
-translations can provide translations for other languages
-that are not included in the attestation file.
+In the attestation file, a language marker must be provided for any translations of the natural language version so that a user agent or app can select the appropriate language version to display to the user if desired. Machine-based translations can provide translations for other languages that are not included in the attestation file.
 
 Let's take a look at the parts that make up the proposed core privacy attestation:
 
@@ -176,7 +171,7 @@ File fields:
   <tr>
    <td><code>shared_storage_api</code>
    </td>
-   <td>Attestations for the Shared Storage API. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items, that indicate the attestation strings the ad tech attests to.  
+   <td>Attestations for the Shared Storage API. This entry is a list, which contains a list of <code>&lt;Attestation, Boolean></code> items, that indicate the attestation strings the ad tech attests to.
    </td>
   </tr>
   <tr>
