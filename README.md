@@ -42,14 +42,6 @@ In addition to the computer readable version of the attestations, a natural lang
 
 The English version of the core privacy attestation is:
 
-Previous:
-
-> This entity that is using the Privacy Sandbox states that it will not
-use the data from the Privacy Sandbox APIs or services for the purpose
-of linking your identity across different sites or apps.
-
-New:
-
 > The attesting entity states that it will not use the Privacy Sandbox
 APIs or services for the purpose of learning that you are the same
 user across different sites or apps, and that it will not otherwise
