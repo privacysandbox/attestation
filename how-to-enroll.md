@@ -4,10 +4,13 @@ To access the Privacy Sandbox relevance and measurement APIs on Chrome ([https:/
 
 ## What is enrollment?
 
-[Developer enrollment](https://developer.chrome.com/blog/announce-enrollment-privacy-sandbox/) provides a mechanism to verify the entities that call these APIs, and to gather the developer-specific data needed to properly configure and use the Privacy Sandbox APIs. This enrollment process adds an additional layer of protections on top of the structural restrictions enforced within each API, by adding transparency to who is collecting data, and mitigating attempts to misuse the APIs to gather more data than intended. To provide auditable transparency, enrollment information about the company will be made public.\
-To ensure companies have ample time to complete the enrollment and attestation process, we now expect to begin enforcement in mid-October, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule). For the pre-Stable Chrome channels, enforcement will also begin with their respective 118 releases: late-August for Dev/Canary, mid-September for Beta.\
-This means companies must complete enrollment by mid-October in order to access the relevance and measurement APIs in Chrome Stable (note: enrollment is already enforced in the pre-release Dev and Canary channels). \
-Companies who previously enrolled via the original Android enrollment process must migrate to the unified Android and Chrome enrollment process by the mid-October in order to avoid any disruption in access to the APIs.\
+[Developer enrollment](https://developer.chrome.com/blog/announce-enrollment-privacy-sandbox/) provides a mechanism to verify the entities that call these APIs, and to gather the developer-specific data needed to properly configure and use the Privacy Sandbox APIs. This enrollment process adds an additional layer of protections on top of the structural restrictions enforced within each API, by adding transparency to who is collecting data, and mitigating attempts to misuse the APIs to gather more data than intended. To provide auditable transparency, enrollment information about the company will be made public.
+
+To ensure companies have ample time to complete the enrollment and attestation process, we now expect to begin enforcement in mid-October, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule). For the pre-Stable Chrome channels, enforcement will also begin with their respective 118 releases: late-August for Dev/Canary, mid-September for Beta.
+This means companies must complete enrollment by mid-October in order to access the relevance and measurement APIs in Chrome Stable (note: enrollment is already enforced in the pre-release Dev and Canary channels). 
+
+Companies who previously enrolled via the original Android enrollment process must migrate to the unified Android and Chrome enrollment process by the mid-October in order to avoid any disruption in access to the APIs.
+
 Companies should plan at least five weeks to complete the enrollment process, from the time they submit the enrollment form. This includes time to address any issues with the form submission or other issues that may ariseThis does not include any additional lead time companies may need for internal preparation prior to submitting the form.
 
 ### How to enroll
@@ -18,20 +21,26 @@ To enroll, developers must [complete the enrollment form](https://goo.gle/privac
 -   [D-U-N-S number](https://www.dnb.com/duns.html) for your organization
 -   APIs that you plan to use and API configuration information
 
-Developers also need to agree to attestations about their usage of the enrolled Privacy Sandbox APIs.\
+Developers also need to agree to attestations about their usage of the enrolled Privacy Sandbox APIs.
+
 After your enrollment form has been submitted, we'll review and process your application. Once the review is complete, you will be sent a confirmation email with a unique developer enrollment account ID and attestation file. The file must be made publicly available from the /.well-known path on the [site](https://web.dev/same-site-same-origin/) for which it was enrolled within 30 days of receiving the account ID and attestation file, but no sooner than December 15th, 2023. [Android developers](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md#android-developer-data) can provide the enrollment ID to app developers so apps can set granular access control: see Android's [Configure API-specific Ad Services](https://developer.android.com/design-for-safety/privacy-sandbox/setup-api-access?version=preview#configure-api-specific) documentation.
 
 ### Before you begin
 
-Before starting the process, make sure you have a [D-U-N-S number](https://www.dnb.com/duns.html) for your organization. This is a unique nine digit number provided by Dun & Bradstreet that is used to identify your business, and is checked as part of the Privacy Sandbox enrollment verification process. If your company has been issued multiple D-U-N-S numbers, please provide the highest level one that represents your overall corporate entity. If your business is not a legal entity, you will not be able to obtain a D-U-N-S number.\
-To check if your company already has an assigned D-U-N-S number, or to obtain a new D-U-N-S number, make a request via the [enrollment form](https://goo.gle/privacy-sandbox-enroll-form). Google has a complimentary, expedited Dun & Bradstreet request process available for this purpose. Once you've made the request, we will send you an email with a unique, one-time-only link to visit the Google-specific landing page to submit your business details. If you don't complete submitting your information, you will need to request another link from Google.\
-Once completed, it takes approximately five to seven business days to receive your D-U-N-S number. As part of their process, Dun & Bradstreet may contact you to gather additional information.\
-If you are an individual and not affiliated with an organization, or your organization is not able to obtain a D-U-N-S number, you may enroll as an individual on the enrollment form.\
+Before starting the process, make sure you have a [D-U-N-S number](https://www.dnb.com/duns.html) for your organization. This is a unique nine digit number provided by Dun & Bradstreet that is used to identify your business, and is checked as part of the Privacy Sandbox enrollment verification process. If your company has been issued multiple D-U-N-S numbers, please provide the highest level one that represents your overall corporate entity. If your business is not a legal entity, you will not be able to obtain a D-U-N-S number.
+
+To check if your company already has an assigned D-U-N-S number, or to obtain a new D-U-N-S number, make a request via the [enrollment form](https://goo.gle/privacy-sandbox-enroll-form). Google has a complimentary, expedited Dun & Bradstreet request process available for this purpose. Once you've made the request, we will send you an email with a unique, one-time-only link to visit the Google-specific landing page to submit your business details. If you don't complete submitting your information, you will need to request another link from Google.
+
+Once completed, it takes approximately five to seven business days to receive your D-U-N-S number. As part of their process, Dun & Bradstreet may contact you to gather additional information.
+
+If you are an individual and not affiliated with an organization, or your organization is not able to obtain a D-U-N-S number, you may enroll as an individual on the enrollment form.
+
 Note: All information (excluding personally identifiable information) collected during developer enrollment may be included in Privacy Sandbox reports. These reports will be publicly available.
 
 ## Enroll your site, Android SDK, or Android app
 
-During enrollment, you need to provide a site and/or SDK, that you'll use to call the APIs.\
+During enrollment, you need to provide a site and/or SDK, that you'll use to call the APIs.
+
 How you enroll depends on how the Privacy Sandbox APIs are called:
 
 -   If you're a web developer and your site calls the Privacy Sandbox APIs directly, you should provide your site in enrollment.
@@ -43,15 +52,20 @@ Every site or SDK that calls the Privacy Sandbox APIs requires a unique enrollme
 
 ### Multiple enrollments for a single entity
 
-Larger and more complex entities that have multiple, unique products may apply for more than one enrollment. For example, if your company has an SSP and a DSP line of business you may qualify for multiple enrollments. Each product must have separate sites from which to call the APIs. You will be required to provide public representation for each product you are requesting to enroll (eg. link to a public facing website that explains the product). \
+Larger and more complex entities that have multiple, unique products may apply for more than one enrollment. For example, if your company has an SSP and a DSP line of business you may qualify for multiple enrollments. Each product must have separate sites from which to call the APIs. You will be required to provide public representation for each product you are requesting to enroll (eg. link to a public facing website that explains the product). 
+
 If you want to enroll more than one site or SDK, fill out the [Multi Enrollment Request Process form](https://goo.gle/privacy-sandbox-enroll-multi) in addition to submitting the normal enrollment form for the first enrollment you are requesting. Once submitted, the application will be reviewed and you will receive an email when the review process is complete.
 
 ## Upload your attestation file
 
-Once you've enrolled and passed the verification process, we'll send a file that contains the API-specific attestations to the email address you've provided. This must be in place by December 15th, 2023. For enrollments that are submitted past this deadline, developers will have a 30-day implementation period from the time they receive their account ID and attestation file, to finalize their attestation file placement.\
-To complete enrollment, the developer must make the file available from the public .well-known path on the site that was enrolled. For example, if you enroll https://example.com, place the attestation file at https://example.com/.well-known/privacy-sandbox-attestations.json.\
-Developers must abide by the attestations and keep the attestation file in place for the duration of the enrollment. Attestation files are routinely verified, and prolonged failure to keep them in place will cause API calls to fail until the file is restored.\
-For Topics on Android attestations, app and SDK developers need to agree to the attestation within the enrollment form and do not need to place an attestation file on their server unless they are using other Privacy Sandbox APIs.\
+Once you've enrolled and passed the verification process, we'll send a file that contains the API-specific attestations to the email address you've provided. This must be in place by December 15th, 2023. For enrollments that are submitted past this deadline, developers will have a 30-day implementation period from the time they receive their account ID and attestation file, to finalize their attestation file placement.
+
+To complete enrollment, the developer must make the file available from the public .well-known path on the site that was enrolled. For example, if you enroll https://example.com, place the attestation file at https://example.com/.well-known/privacy-sandbox-attestations.json.
+
+Developers must abide by the attestations and keep the attestation file in place for the duration of the enrollment. Attestation files are routinely verified, and prolonged failure to keep them in place will cause API calls to fail until the file is restored.
+
+For Topics on Android attestations, app and SDK developers need to agree to the attestation within the enrollment form and do not need to place an attestation file on their server unless they are using other Privacy Sandbox APIs.
+
 [Learn more](https://github.com/privacysandbox/attestation) about attestations.
 
 ## Android developer data
