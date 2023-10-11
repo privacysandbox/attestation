@@ -1,17 +1,17 @@
 # Enroll for the Privacy Sandbox
 
-To access the Privacy Sandbox relevance and measurement APIs on Chrome ([https://developer.chrome.com/docs/privacy-sandbox/](https://developer.chrome.com/docs/privacy-sandbox/)) and Android ([https://developer.android.com/design-for-safety/privacy-sandbox](https://developer.android.com/design-for-safety/privacy-sandbox)), developers need to enroll with the Privacy Sandbox. This includes Attribution Reporting, Protected Audience, Topics, Private Aggregation, and Shared Storage.
+To access the Privacy Sandbox relevance and measurement APIs on **Chrome** ([https://developer.chrome.com/docs/privacy-sandbox/](https://developer.chrome.com/docs/privacy-sandbox/)) and **Android** ([https://developer.android.com/design-for-safety/privacy-sandbox](https://developer.android.com/design-for-safety/privacy-sandbox)), developers need to enroll with the Privacy Sandbox. This includes Attribution Reporting, Protected Audience, Topics, Private Aggregation, and Shared Storage.
 
 ## What is enrollment?
 
 [Developer enrollment](https://developer.chrome.com/blog/announce-enrollment-privacy-sandbox/) provides a mechanism to verify the entities that call these APIs, and to gather the developer-specific data needed to properly configure and use the Privacy Sandbox APIs. This enrollment process adds an additional layer of protections on top of the structural restrictions enforced within each API, by adding transparency to who is collecting data, and mitigating attempts to misuse the APIs to gather more data than intended. To provide auditable transparency, enrollment information about the company will be made public.
 
-To ensure companies have ample time to complete the enrollment and attestation process, we now expect to begin enforcement in mid-October, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule). For the pre-Stable Chrome channels, enforcement will also begin with their respective 118 releases: late-August for Dev/Canary, mid-September for Beta.
-This means companies must complete enrollment by mid-October in order to access the relevance and measurement APIs in Chrome Stable (note: enrollment is already enforced in the pre-release Dev and Canary channels). 
+To ensure companies have ample time to complete the enrollment and attestation process, we now expect to **begin enforcement in mid-October, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule)**. For the pre-Stable Chrome channels, enforcement will also begin with their respective 118 releases: late-August for Dev/Canary, mid-September for Beta.
+This means **companies must complete enrollment by mid-October** in order to access the relevance and measurement APIs in Chrome Stable (**note: enrollment is already enforced in the pre-release Dev and Canary channels**). 
 
 Companies who previously enrolled via the original Android enrollment process must migrate to the unified Android and Chrome enrollment process by the mid-October in order to avoid any disruption in access to the APIs.
 
-Companies should plan at least five weeks to complete the enrollment process, from the time they submit the enrollment form. This includes time to address any issues with the form submission or other issues that may ariseThis does not include any additional lead time companies may need for internal preparation prior to submitting the form.
+Companies should plan **at least five weeks to complete the enrollment process**, from the time they submit the enrollment form. This includes time to address any issues with the form submission or other issues that may ariseThis does not include any additional lead time companies may need for internal preparation prior to submitting the form.
 
 ### How to enroll
 
@@ -23,7 +23,7 @@ To enroll, developers must [complete the enrollment form](https://goo.gle/privac
 
 Developers also need to agree to attestations about their usage of the enrolled Privacy Sandbox APIs.
 
-After your enrollment form has been submitted, we'll review and process your application. Once the review is complete, you will be sent a confirmation email with a unique developer enrollment account ID and attestation file. The file must be made publicly available from the /.well-known path on the [site](https://web.dev/same-site-same-origin/) for which it was enrolled within 30 days of receiving the account ID and attestation file, but no sooner than December 15th, 2023. [Android developers](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md#android-developer-data) can provide the enrollment ID to app developers so apps can set granular access control: see Android's [Configure API-specific Ad Services](https://developer.android.com/design-for-safety/privacy-sandbox/setup-api-access?version=preview#configure-api-specific) documentation.
+After your enrollment form has been submitted, we'll review and process your application. Once the review is complete, you will be sent a confirmation email with a unique developer enrollment account ID and attestation file. The file must be made publicly available from the `/.well-known` path on the [site](https://web.dev/same-site-same-origin/) for which it was enrolled within 30 days of receiving the account ID and attestation file, but no sooner than December 15th, 2023. [Android developers](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md#android-developer-data) can provide the enrollment ID to app developers so apps can set granular access control: see Android's [Configure API-specific Ad Services](https://developer.android.com/design-for-safety/privacy-sandbox/setup-api-access?version=preview#configure-api-specific) documentation.
 
 ### Before you begin
 
@@ -60,7 +60,7 @@ If you want to enroll more than one site or SDK, fill out the [Multi Enrollment 
 
 Once you've enrolled and passed the verification process, we'll send a file that contains the API-specific attestations to the email address you've provided. This must be in place by December 15th, 2023. For enrollments that are submitted past this deadline, developers will have a 30-day implementation period from the time they receive their account ID and attestation file, to finalize their attestation file placement.
 
-To complete enrollment, the developer must make the file available from the public .well-known path on the site that was enrolled. For example, if you enroll https://example.com, place the attestation file at https://example.com/.well-known/privacy-sandbox-attestations.json.
+To complete enrollment, the developer must make the file available from the public `.well-known` path on the site that was enrolled. For example, if you enroll `https://example.com`, place the attestation file at `https://example.com/.well-known/privacy-sandbox-attestations.json`.
 
 Developers must abide by the attestations and keep the attestation file in place for the duration of the enrollment. Attestation files are routinely verified, and prolonged failure to keep them in place will cause API calls to fail until the file is restored.
 
@@ -96,8 +96,8 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 
 -   No, you do not need to enroll if you are only testing with local traffic.
 -   For local testing, we are providing developer overrides from Chrome 116 with a Chrome flag and CLI switch:
-    -   Flag: chrome://flags/#privacy-sandbox-enrollment-overrides
-    -   CLI: --privacy-sandbox-enrollment-overrides=https://example.com,https://example.co.uk,...
+    -   Flag: `chrome://flags/#privacy-sandbox-enrollment-overrides`
+    -   CLI: `--privacy-sandbox-enrollment-overrides=https://example.com,https://example.co.uk,...`
 
 #### 6. Do I need to re-enroll if I previously enrolled under the Android Enrollment Program?
 
@@ -111,16 +111,16 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 
 #### 1. Do I need to update my attestation file if I decide to include more APIs in my enrollment at a later date?
 
--   Yes, you will need to update your enrollment. As part of this process, you will receive an updated attestation file that must be made available from the .well-known path on your site, before you can call the new APIs.
+-   Yes, you will need to update your enrollment. As part of this process, you will receive an updated attestation file that must be made available from the `.well-known` path on your site, before you can call the new APIs.
 
 **2. Do I need to update to the latest version of the attestation file that I received from Google?**
 
--   Yes, all enrolled companies need to update to the latest version of the attestation file by December 15th, 2023.
+-   Yes, all enrolled companies need to update to the latest version of the attestation file by **December 15th, 2023**.
 
 **3. Q: Can I call the APIs if my enrollment is complete but my attestation file is not yet in place prior to December 15th, 2023?**
 
--   Yes, you can call the APIs but your access will be removed if your attestation file(s) is/are not in place by December 15th, 2023.
--   For enrollments that are submitted after December 15th, 2023 developers will have 30 days post enrollment (we call this the implementation period) to get attestation file(s) in place.
+-   Yes, you can call the APIs but your access will be removed if your attestation file(s) is/are not in place by **December 15th, 2023**.
+-   For enrollments that are submitted after December 15th, 2023 developers will have **30 days** post enrollment (we call this the implementation period) to get attestation file(s) in place.
 -   It is expected that you do not enroll unless you are planning to abide by the attestation language during this 30 day period.
 
 **4. Do the attestation files expire?**
@@ -166,7 +166,7 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 -   You will enroll an origin (scheme, host name) during Aggregation Service enrollment which must be part of the same site (scheme, eTLD+1) registered via Developer Enrollment.
 -   Each Aggregation Service enrollment must include the AWS Account's ID, in which the Aggregation Service will be deployed. Each AWS Account may only be linked to one Aggregation Service enrollment.
 
-#### 4. If any ad tech registers an impression with Origin 1 www.foo.com and conversion with Origin 2 www.example.foo.com, is the attribution scoped to enrollmentID or origin?
+#### 4. If any ad tech registers an impression with Origin 1 `www.foo.com` and conversion with Origin 2 `www.example.foo.com`, is the attribution scoped to `enrollmentID` or origin?
 
 -   No, attribution is not allowed cross origins. Attribution scope is at the origin level.
 
@@ -182,7 +182,7 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 
 -   The complete list of rate limits is documented [here](https://wicg.github.io/attribution-reporting-api/#vendor-specific-values).
 
-#### 8. If site A is not enrolled but site B is enrolled, when Chrome pings siteA.com and then redirects to siteB.com, would this work given siteA is not enrolled?
+#### 8. If site A is not enrolled but site B is enrolled, when Chrome pings `siteA.com` and then redirects to `siteB.com`, would this work given siteA is not enrolled?
 
 -   Yes this will work. ARA will ping URLs for redirects even if not enrolled, but sources/triggers will only be registered from enrolled ad techs.
 
@@ -199,23 +199,23 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 
 #### 1. Can one Buyer A with a separate enrollment from another Buyer B create an IG and allow Buyer B to use it in bidding?
 
--   Chrome No. However, a Buyer A can delegate creation of an IG to another Site B that has no role as Buyer (details[ here](https://github.com/WICG/turtledove/blob/main/FLEDGE.md#13-permission-delegation)) with the IG retaining Buyer A as the owner.This is the only way we support an IG being created by an entity other than the (eventual) Buyer that submits a bid in the PA auction
--   Android No. However Android also supports [Delegation](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#custom-audience-join:~:text=audience.%0AjoinCustomAudience(audience)%3B-,fetchAndJoinCustomAudience,-()) - where an on device caller can request the platform to fetch a Custom Audience from a specific buyer (Buyer B). The Buyer B must be an enrolled ad tech.
+-   **Chrome** No. However, a Buyer A can delegate creation of an IG to another Site B that has no role as Buyer (details[ here](https://github.com/WICG/turtledove/blob/main/FLEDGE.md#13-permission-delegation)) with the IG retaining Buyer A as the owner.This is the only way we support an IG being created by an entity other than the (eventual) Buyer that submits a bid in the PA auction
+-   **Android** No. However Android also supports [Delegation](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#custom-audience-join:~:text=audience.%0AjoinCustomAudience(audience)%3B-,fetchAndJoinCustomAudience,-()) - where an on device caller can request the platform to fetch a Custom Audience from a specific buyer (Buyer B). The Buyer B must be an enrolled ad tech.
 
 #### 2. How can the parties sending reports via ReportResult or ReportWin check the enrollment status?
 
--   Chrome The Chrome implementation is not currently checking for enrollment status of the ReportResult/ReportWin destinations.
--   Android There is no need for these parties to do anything. The PA flow will check for the enrollment for either of the specified destinations.
+-   **Chrome** The Chrome implementation is not currently checking for enrollment status of the ReportResult/ReportWin destinations.
+-   **Android** There is no need for these parties to do anything. The PA flow will check for the enrollment for either of the specified destinations.
 
 #### 3. Do the destinations for event-level engagement reporting, including 3rd party ad measurement partners need to be enrolled?
 
--   Chrome Yes. Any entities receiving data directly from the privacy sandbox APIs via [engagement reporting](https://github.com/WICG/turtledove/blob/main/Fenced_Frames_Ads_Reporting.md) need to enroll.
--   Android Same as above see [Event Reporting](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#reporting_events)
+-   **Chrome** Yes. Any entities receiving data directly from the privacy sandbox APIs via [engagement reporting](https://github.com/WICG/turtledove/blob/main/Fenced_Frames_Ads_Reporting.md) need to enroll.
+-   **Android** Same as above see [Event Reporting](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience#reporting_events)
 
 #### 4. The limit of 1000 IGs per Owner per device, does that apply to a single enrollment?
 
--   Chrome Not necessarily. The limit of 1000 IGs is at the origin level. If ad tech decides to use several origins per site/enrollment, then each of those origins gets its own allocation of 1000 IGs per device
--   Android The Custom Audience limits are applied per User profile (4000) and per app (1000) which is applied to a single enrollment.
+-   **Chrome** Not necessarily. The limit of 1000 IGs is at the origin level. If ad tech decides to use several origins per site/enrollment, then each of those origins gets its own allocation of 1000 IGs per device
+-   **Android** The Custom Audience limits are applied per User profile (4000) and per app (1000) which is applied to a single enrollment.
 
 #### 5. What, if any, are the rate limits I need to keep in mind when using the Topics API?
 
@@ -224,15 +224,15 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 
 ### Developer Enrollment FAQs
 
-For Aggregation Service enrollment [see here](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md#bookmark=kix.3deqz4l395z7)
+For Aggregation Service enrollment [see this section](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md#3-do-i-need-to-complete-aggregation-service-enrollment-and-developer-enrollment-to-use-the-aggregation-service)
 
 #### 1. What are the developer enrollment limitations I need to keep in mind when determining my organization's enrollment structure?
 
 -   One site can only be linked to one enrollment.
 -   One enrollment contains only one site.
 -   SDK specific limitations:
-    1.  One enrollment may contain multiple SDKs.
-    1.  A given SDK can only be linked to one enrollment.
+     1.  One enrollment may contain multiple SDKs.
+     1.  A given SDK can only be linked to one enrollment.
 -   Additional enrollments are allowed, but they need to be for independent products/lines of business that are clearly established and publicly verifiable (ie. there is a corresponding public website that explains the specific product). You can not have multiple enrollments for the same product. The attestations apply to each enrollment individually.
 
 #### 2. Is there a specific registration requirement that would necessitate the separate enrollment of a DSP vs an SSP owned by the same entity?
@@ -251,7 +251,7 @@ For Aggregation Service enrollment [see here](https://github.com/privacysandbox/
 
 #### 5. Can I use HTTP redirects to serve the attestation file?
 
--   No, the attestation file must be located at the .well-known directory at your site. It cannot redirect to another location (eg, a subdomain, or another site)
+-   No, the attestation file must be located at the `.well-known` directory at your site. It cannot redirect to another location (eg, a subdomain, or another site)
 
 #### 6. What happens if there are one-off errors in serving the attestation file?
 
