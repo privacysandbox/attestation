@@ -218,3 +218,26 @@ If the information from the model is not used to produce a persistent profile of
 An enrolled caller of the Topics API is typically doing so in order to include the topic in an ad slot opportunity that is sent to other parties such as potential ad buyers or other exchanges. The receiving party for this opportunity would receive the topic with the rest of the ad request information.
 
 The downstream receivers of topics beyond the initial Topics API caller do not need to be enrolled, though many are likely to be enrolled for other API usage. A list of Privacy Sandbox enrollees will be provided programmatically as part of the program's transparency efforts, which would allow an interested caller of the Topics API to check if the recipient they are sending a topic to is enrolled, if the caller should want to.
+
+## Release Notes
+
+Refer to the complete guidance available on GitHub for [previous releases](https://github.com/privacysandbox/attestation/commits/main/README.md) regarding updates to the Attestation explainer. We have updated our [Developer enrollment guide](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md) accordingly.
+
+<table>
+  <thead>
+    <tr>
+      <th>Enrollment Attestation Explainer Version</th>
+      <th>Date Updated</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1.0</td>
+      <td>06.01.23</td>
+    </tr>
+    <tr>
+      <td>2.0</td>
+      <td>10.05.23</td>
+    </tr>
+  </tbody>
+</table>
