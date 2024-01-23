@@ -6,12 +6,11 @@ To access the Privacy Sandbox relevance and measurement APIs on **Chrome** ([htt
 
 [Developer enrollment](https://developer.chrome.com/blog/announce-enrollment-privacy-sandbox/) provides a mechanism to verify the entities that call these APIs, and to gather the developer-specific data needed to properly configure and use the Privacy Sandbox APIs. This enrollment process adds an additional layer of protections on top of the structural restrictions enforced within each API, by adding transparency to who is collecting data, and mitigating attempts to misuse the APIs to gather more data than intended. To provide auditable transparency, enrollment information about the company will be made public.
 
-To ensure companies have ample time to complete the enrollment and attestation process, we now expect to **begin enforcement in mid-October, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule)**. For the pre-Stable Chrome channels, enforcement will also begin with their respective 118 releases: late-August for Dev/Canary, mid-September for Beta.
-This means **companies must complete enrollment by mid-October** in order to access the relevance and measurement APIs in Chrome Stable (**note: enrollment is already enforced in the pre-release Dev and Canary channels**). 
+To provide companies with ample time to complete the enrollment and attestation process, enforcement began in mid-October 2023, with the [Chrome 118 Stable release](https://chromiumdash.appspot.com/schedule). For the pre-Stable Chrome channels, enforcement also began with their respective 118 releases: late-August 2023 for Dev/Canary, mid-September for Beta.
 
-Companies who previously enrolled via the original Android enrollment process must migrate to the unified Android and Chrome enrollment process by the mid-October in order to avoid any disruption in access to the APIs.
+This meant companies had to complete enrollment by mid-October 2023 in order to access the relevance and measurement APIs in Chrome Stable (enrollment was already enforced in the pre-release Dev and Canary channels). 
 
-Companies should plan **at least five weeks to complete the enrollment process**, from the time they submit the enrollment form. This includes time to address any issues with the form submission or other issues that may ariseThis does not include any additional lead time companies may need for internal preparation prior to submitting the form.
+Companies should allow **at least five weeks to complete the enrollment process**, from the time they submit the enrollment form. This includes time to address any issues with the form submission or other issues that may ariseThis does not include any additional lead time companies may need for internal preparation prior to submitting the form.
 
 ### How to enroll
 
@@ -76,9 +75,9 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 
 ### Enrollment questions
 
-#### 1. What if I am not enrolled by mid-October 2023?
+#### 1. What if I was not enrolled by mid-October 2023?
 
--   Enrollment will become a requirement from mid-October 2023. If you are not enrolled by then, you will not be able to call the APIs on Chrome or Android. If you have enrolled for only Chrome and/or Android, you will be able to call the APIs on the platform you have enrolled.
+-   Enrollment became a requirement from mid-October 2023. If you were not enrolled by then, you were not be able to call the APIs on Chrome or Android. If you had enrolled for only Chrome and/or Android, you will be able to call the APIs on the platform you have enrolled.
 
 #### 2. How do I update enrollment information?
 
@@ -86,7 +85,7 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 
 #### 3. As an app developer, can I verify if an SDK or site has enrolled?
 
--   After the enforcement deadline in mid-October 2023, we will publish a list of currently enrolled sites and SDKs for verification purposes, along with their enrollment IDs.
+-   Following the enforcement deadline in mid-October 2023, we published a list of currently enrolled sites and SDKs for verification purposes, along with their enrollment IDs.
 
 #### 4. How long will it take to have my enrollment approved?
 
