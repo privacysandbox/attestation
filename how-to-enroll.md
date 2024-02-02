@@ -50,6 +50,8 @@ How you enroll depends on how the Privacy Sandbox APIs are called:
 
 Every site or SDK that calls the Privacy Sandbox APIs requires a unique enrollment and needs to attest individually. Apps that call the Privacy Sandbox APIs directly may be included in a single enrollment. If you plan to call multiple APIs, specify each one during the enrollment process.
 
+Please note the site you enroll with is the same site that will be used to retrieve the encryption keys for use of Topics on Android and the signing key for your use of Protected Audience on Android. More information on the encryption endpoint for Topics on Android [here](https://developers.google.com/privacy-sandbox/relevance/topics/android#encryption) and more information for signing keys for Protected Audience [here](https://developer.android.com/design-for-safety/privacy-sandbox/protected-audience-appinstall-filtering#ad-signing).
+
 ### Multiple enrollments for a single entity
 
 Larger and more complex entities that have multiple, unique products may apply for more than one enrollment. For example, if your company has an SSP and a DSP line of business you may qualify for multiple enrollments. Each product must have separate sites from which to call the APIs. You will be required to provide public representation for each product you are requesting to enroll (eg. link to a public facing website that explains the product). 
