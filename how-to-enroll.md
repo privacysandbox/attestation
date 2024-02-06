@@ -11,7 +11,7 @@ This means **companies must complete enrollment by mid-October** in order to acc
 
 Companies who previously enrolled via the original Android enrollment process must migrate to the unified Android and Chrome enrollment process by the mid-October in order to avoid any disruption in access to the APIs.
 
-Companies should plan **at least five weeks to complete the enrollment process**, from the time they submit the enrollment form. This includes time to address any issues with the form submission or other issues that may ariseThis does not include any additional lead time companies may need for internal preparation prior to submitting the form.
+Companies should plan **at least five weeks to complete the enrollment process**, from the time they submit the enrollment form. This includes time to address any issues with the form submission or other issues that may arise. This does not include any additional lead time companies may need for internal preparation prior to submitting the form.
 
 ### How to enroll
 
