@@ -165,8 +165,8 @@ Entities that intend to use the Privacy Sandbox APIs on Android are sent an enro
 #### 3. Do I need to complete Aggregation Service enrollment and Developer Enrollment to use the Aggregation Service?
 
 -   Yes, there is currently a separate enrollment process for server elements and the client APIs (eg, Chrome and Android). Both enrollment forms are required to use the Aggregation Service. We are looking to streamline the processes; for now, the Aggregation Service has a [separate form](https://docs.google.com/forms/d/e/1FAIpQLSdkTR53VDIlFvaUo3Flx-RF4xCEZbArq-wjvO0W0O1G-YdHCQ/viewform).
--   You will enroll an origin (scheme, host name) during Aggregation Service enrollment which must be part of the same site (scheme, eTLD+1) registered via Developer Enrollment.
--   Each Aggregation Service enrollment must include the AWS Account's ID, in which the Aggregation Service will be deployed. Each AWS Account may only be linked to one Aggregation Service enrollment.
+-   You will enroll a site during Aggregation Service enrollment which must be the same site (scheme, eTLD+1) registered via Developer Enrollment.
+-   Each Aggregation Service enrollment must include the AWS Account's ID or Google Cloud project, in which the Aggregation Service will be deployed. Ad techs have the flexibility to link multiple sites to one AWS Account ID or Google Cloud project for testing and operational/cost efficiency needs.
 
 #### 4. If any ad tech registers an impression with Origin 1 `www.foo.com` and conversion with Origin 2 `www.example.foo.com`, is the attribution scoped to `enrollmentID` or origin?
 
