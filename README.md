@@ -221,7 +221,7 @@ The downstream receivers of topics beyond the initial Topics API caller do not n
 
 ## Release Notes
 
-Refer to the complete guidance available on GitHub for [previous releases](https://github.com/privacysandbox/attestation/commits/main/README.md) regarding updates to the Attestation explainer. We have updated our [Developer enrollment guide](https://github.com/privacysandbox/attestation/blob/main/how-to-enroll.md) accordingly.
+Refer to the complete guidance available on GitHub for [previous releases](https://github.com/privacysandbox/attestation/commits/main/README.md) regarding updates to the Attestation explainer. We have updated our [Developer enrollment guide](https://developers.google.com/privacy-sandbox/relevance/enrollment) accordingly.
 
 <table>
   <thead>
