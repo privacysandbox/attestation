@@ -4,7 +4,7 @@ As part of the Privacy Sandbox Enrollment process, a list of enrolled registrant
 
 For Android developers: the included Enrollment ID can be used in the app manifest to deny access to Privacy Sandbox APIs (PS APIs) from within your app for a specific company. 
 
-[Click to download the report](enrollment_report.csv).
+[View the report](enrollment_report.csv).
 
 ## FAQs
 
