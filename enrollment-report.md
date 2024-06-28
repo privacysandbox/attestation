@@ -6,6 +6,8 @@ For Android developers: the included Enrollment ID can be used in the app manife
 
 <a href="enrollment_report.csv" download>Click to download the report.</a>
 
+[Click to download the report](enrollment_report.csv).
+
 ## FAQs
 
 Q: Does this list contain developers who did not successfully complete the enrollment process?
