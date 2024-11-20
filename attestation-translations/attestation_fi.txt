@@ -1,16 +1,1 @@
-﻿Context
-
-
-We are requesting the following natural language version (English) of the attestations translated into other languages that Google usually supports. This content will be hosted on GitHub (https://github.com/privacysandbox/attestation).
-
-
-The following is the current English text that needs translation:
-________________
-
-
-
-
-Todentava taho vakuuttaa, ettei se käytä Privacy Sandbox APIa tai palveluita tunnistaakseen, että olet sama käyttäjä eri sivustoilla tai sovelluksissa, ja ettei se muuten kierrä Privacy Sandboxin yksityisyyssuojauksia. 
-
-
-________________
+Todentava taho vakuuttaa, ettei se käytä Privacy Sandbox APIa tai palveluita tunnistaakseen, että olet sama käyttäjä eri sivustoilla tai sovelluksissa, ja ettei se muuten kierrä Privacy Sandboxin yksityisyyssuojauksia.
