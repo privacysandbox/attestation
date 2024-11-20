@@ -1,0 +1,1 @@
+Den attesterende enheten erklærer at den ikke skal bruke tjenestene eller API-ene for Privacy Sandbox til å finne ut at du er den samme brukeren, på flere nettsteder eller i flere apper. Enheten erklærer også at den ikke på annen måte skal omgå personvernet i Privacy Sandbox. 

@@ -1,0 +1,1 @@
+Potrjujoči subjekt izjavlja, da API-jev ali storitev Zasebnega peskovnika ne bo uporabljal za namen ugotavljanja, ali gre v vašem primeru za istega uporabnika na različnih spletnih mestih ali v različnih aplikacijah, in da na noben drug način ne bo zaobšel varovanja zasebnosti Zasebnega peskovnika. 

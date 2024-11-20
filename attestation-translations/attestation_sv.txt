@@ -1,0 +1,1 @@
+Det intygande rättssubjektet anger att det inte kommer att använda API:er eller tjänster för Privacy Sandbox till att ta reda på att du är samma användare på olika webbplatser och i olika appar, samt att det inte på något annat vis kommer kringgå integritetsskydden i Privacy Sandbox. 

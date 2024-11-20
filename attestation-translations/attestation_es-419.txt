@@ -1,0 +1,1 @@
+La entidad de certificación declara que no usará los servicios ni las APIs de Privacy Sandbox para detectar que usted es el mismo usuario en diferentes sitios y aplicaciones, y que no eludirá de ninguna otra forma las protecciones de privacidad de Privacy Sandbox. 

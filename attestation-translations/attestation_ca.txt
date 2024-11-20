@@ -1,0 +1,1 @@
+L'entitat d'atestació afirma que no utilitzarà les API ni els serveis de Privacy Sandbox amb la finalitat de saber si sou el mateix usuari en diferents llocs web o aplicacions, i que no eludirà de cap altra manera les proteccions de privadesa de Privacy Sandbox.

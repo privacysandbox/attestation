@@ -1,0 +1,1 @@
+A entidade declarante afirma que não usará as APIs ou os serviços do Sandbox de privacidade com o objetivo de descobrir se você é o mesmo usuário em diferentes sites ou apps e que não irá burlar de outra forma as proteções de privacidade do Sandbox de privacidade.

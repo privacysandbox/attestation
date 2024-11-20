@@ -1,0 +1,1 @@
+Thực thể chứng nhận cho biết rằng sẽ không dùng các API Hộp cát về quyền riêng tư hoặc các dịch vụ cho mục đích tìm hiểu xem bạn có phải là cùng một người dùng trên nhiều trang web hoặc ứng dụng hay không. Đồng thời, thực thể này sẽ không né tránh các biện pháp bảo vệ quyền riêng tư của Hộp cát về quyền riêng tư.

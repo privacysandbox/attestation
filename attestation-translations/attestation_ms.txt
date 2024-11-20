@@ -1,0 +1,1 @@
+Entiti yang membuat pengesahan menyatakan bahawa entiti tersebut tidak akan menggunakan API atau perkhidmatan Privacy Sandbox untuk tujuan mengetahui bahawa anda ialah pengguna yang sama merentas laman atau apl yang berbeza dan sebaliknya entiti tersebut tidak akan memintas perlindungan privasi Privacy Sandbox. 

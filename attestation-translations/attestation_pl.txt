@@ -1,0 +1,1 @@
+Podmiot certyfikujący oświadcza, że nie będzie używał interfejsów API ani usług Piaskownicy prywatności do zdobywania informacji o tym, że ma do czynienia z tym samym użytkownikiem w różnych aplikacjach i na różnych stronach, oraz że w żaden inny sposób nie będzie obchodził funkcji ochrony prywatności w Piaskownicy prywatności. 

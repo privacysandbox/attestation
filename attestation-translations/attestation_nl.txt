@@ -1,0 +1,1 @@
+De verklarende entiteit bevestigt dat het de API's en services van Privacy Sandbox niet zal gebruiken om te controleren of u dezelfde gebruiker bent op verschillende sites of apps, en dat het de privacybescherming van de Privacy Sandbox niet op een andere manier zal omzeilen. 

@@ -1,0 +1,1 @@
+Subjekt za potvrđivanje navodi da neće koristiti Privacy Sandbox API-je ili usluge da bi utvrdio jeste li isti korisnik na različitim web-lokacijama ili aplikacijama te da neće ni na koji drugi način zaobići zaštite privatnosti Privacy Sandboxa.

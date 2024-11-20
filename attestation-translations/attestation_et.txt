@@ -1,0 +1,1 @@
+Atesteeriv üksus kinnitab, et ei kasuta privaatsuse liivakasti API-sid ega teenuseid selleks, et seostada teie tegevusi eri saitidel ja rakendustes konkreetselt teiega; samuti kinnitab ta, et hiili muul viisil mööda privaatsuse liivakasti privaatsuskaitse funktsioonidest. 
