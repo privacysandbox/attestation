@@ -1,2 +1,1 @@
-Az igazoló szervezet kijelenti, hogy nem használja a Privacy Sandbox API-kat vagy szolgáltatásokat arra a célra, hogy különböző oldalakon vagy alkalmazásokban megtudja, hogy Ön ugyanaz a felhasználó, és hogy más módon nem kerüli meg 
-a Privacy Sandbox adatvédelmét. 
+Az igazoló szervezet kijelenti, hogy nem használja a Privacy Sandbox API-kat vagy szolgáltatásokat arra a célra, hogy különböző oldalakon vagy alkalmazásokban megtudja, hogy Ön ugyanaz a felhasználó, és hogy más módon nem kerüli meg a Privacy Sandbox adatvédelmét. 
