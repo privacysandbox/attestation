@@ -49,7 +49,7 @@ circumvent the privacy protections of the Privacy Sandbox.
 
 In the attestation file, a language marker must be provided for any translations of the natural language version so that a user agent or app can select the appropriate language version to display to the user if desired. Machine-based translations can provide translations for other languages that are not included in the attestation file.
 
-You can find translations for the core privacy attestation in the attestation-translations directory.
+You can find translations for the core privacy attestation in the [attestation-translations](/attestation-translations) directory.
 
 Let's take a look at the parts that make up the proposed core privacy attestation:
 
