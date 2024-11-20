@@ -1,2 +1,1 @@
 認證實體聲明不會將 Privacy Sandbox API 或服務用於分辨不同網站/應用程式的使用者是否為同一人，也不會規避 Privacy Sandbox 的隱私保護機制。
-
