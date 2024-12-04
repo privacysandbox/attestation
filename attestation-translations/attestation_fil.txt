@@ -1,0 +1,1 @@
+Isinasaad ng nagpapatunay na entity na hindi nito gagamitin ang mga Privacy Sandbox API o serbisyo para alamin na iisang user ka lang sa magkakaibang site o app, at hindi nito lulusutan sa ibang paraan ang mga proteksyon sa privacy ng Privacy Sandbox.

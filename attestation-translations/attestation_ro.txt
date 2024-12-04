@@ -1,0 +1,1 @@
+Entitatea de certificare declară că nu va folosi API-urile sau serviciile Privacy Sandbox pentru a afla dacă este vorba de același utilizator în diferite site-uri sau aplicații și că nu va eluda protecțiile pentru confidențialitate ale Privacy Sandbox. 

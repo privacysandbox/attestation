@@ -1,0 +1,1 @@
+Den attesterende enhed angiver, at den ikke anvender API'er og tjenester fra Privacy Sandbox med det formål at genkende dig på forskellige websites og i forskellige apps, og at den ikke på anden vis forsøger at omgå privatlivsbeskyttelsen i Privacy Sandbox.

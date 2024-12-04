@@ -1,0 +1,1 @@
+Atestācijas iestādes pārstāvji apgalvo, ka neizmantos konfidencialitātes smilškastes saskarnes API vai pakalpojumus, lai noskaidrotu, vai dažādās vietnēs un lietotnēs esat viens un tas pats lietotājs, un ka nekādā citā veidā neapies konfidencialitātes smilškastes prasības attiecībā uz konfidencialitātes aizsardzību.

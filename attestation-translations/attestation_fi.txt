@@ -1,0 +1,1 @@
+Todentava taho vakuuttaa, ettei se käytä Privacy Sandbox APIa tai palveluita tunnistaakseen, että olet sama käyttäjä eri sivustoilla tai sovelluksissa, ja ettei se muuten kierrä Privacy Sandboxin yksityisyyssuojauksia.

@@ -1,0 +1,1 @@
+L'entité attestataire déclare qu'elle n'utilisera pas les API ni les services Privacy Sandbox afin de déterminer que vous êtes le même utilisateur sur différents sites ou applications, et qu'elle ne contournera d'aucune autre manière les protections de la confidentialité de la Privacy Sandbox.

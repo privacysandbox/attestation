@@ -1,0 +1,1 @@
+Tasdik eden taraf Özel Korumalı Alan API'lerini veya hizmetlerini farklı siteler veya uygulamalarda aynı kullanıcı olduğunuzu öğrenmek ve Özel Korumalı Alan'ın gizlilik korumalarını başka şekilde ihlal etmek için kullanmayacağını beyan eder. 

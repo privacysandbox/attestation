@@ -1,0 +1,1 @@
+A entidade de atestação declara que não irá utilizar as APIs nem os serviços Privacy Sandbox com o objetivo de saber se é o mesmo utilizador em diferentes sites ou apps. Além disso, não irá, de qualquer outra forma, contornar as proteções de privacidade do Privacy Sandbox. 
